@@ -5,3 +5,18 @@ print(int(a)%int(b))
 #42번
 f = float(input())
 print(round(f,2))
+
+#43번
+f1, f2 = input().split()
+print(format(float(f1)/float(f2), ".3f"))
+
+#44번
+n, m = input().split()
+a = int(n)
+b = int(m)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+print(format(a/b, ".2f"))
