@@ -20,3 +20,9 @@ print(a*b)
 print(a//b)
 print(a%b)
 print(format(a/b, ".2f"))
+
+#45번
+a, b, c = input().split()
+sum = int(a) + int(b) + int(c)
+avg = sum/3
+print(sum, format(avg, ".2f"))
