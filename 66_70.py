@@ -1,6 +1,5 @@
 #66번
 data = list(map(int, input().split()))
-
 for i in data:
     if i%2==0:
         print("even")
@@ -9,7 +8,6 @@ for i in data:
         
 #67번
 n = int(input())
-
 if n<0:
   if n%2==0:
     print('A')
@@ -23,7 +21,6 @@ else:
 
 #68번
 n = int(input())
-
 if n>=90:
     print('A')
 elif n>=70:
@@ -35,7 +32,6 @@ else:
 
 #69번
 c = input()
-
 if c=='A':
     print("best!!!")
 elif c=='B':
@@ -49,7 +45,6 @@ else:
     
 #70번
 n = int(input())
-
 if n//3==1:
     print("spring")
 elif n//3==2:
