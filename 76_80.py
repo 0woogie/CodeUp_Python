@@ -19,5 +19,14 @@ while True:
           break
 
 #79번
+n = int(input())
+sum = 0
+x = 1
+while True:
+    sum += x
+    if sum >= n:
+        break
+    x += 1
+print(x)
 
 #80번
