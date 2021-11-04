@@ -12,7 +12,3 @@ for i in range(1, n+1):
         print(i, end=' ')
         
 #83번
-
-#84번
-
-#85번
