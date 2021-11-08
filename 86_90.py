@@ -17,6 +17,9 @@ for i in range(1, n+1) :
   print(i, end=' ')
 
 #88번
+a, d, n = map(int, input().split())
+result = a + d*(n-1)
+print(result)
 
 #89번
 
