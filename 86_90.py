@@ -22,5 +22,10 @@ result = a + d*(n-1)
 print(result)
 
 #89번
+a, r, n = map(int, input().split())
+result = a
+for _ in range(n-1):
+    result *= r
+print(result)
 
 #90번
