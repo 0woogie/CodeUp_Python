@@ -22,5 +22,8 @@ for i in range(r):
 print(count)
 
 #84번
+h, b, c, s = map(int, input().split())
+result = h*b*c*s/8/1024/1024
+print(round(result, 1), "MB")
 
 #85번
