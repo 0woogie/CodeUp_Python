@@ -27,3 +27,7 @@ result = h*b*c*s/8/1024/1024
 print(round(result, 1), "MB")
 
 #85번
+w, h, b = map(int, input().split())
+result = w*h*b/8/1024/1024
+print("%0.2f MB" % result)
+#print(round(result, 2), "MB") <--test case가 소수점 첫째 자리에서 끝나는 경우가 있어서 사용할 수 없었다.
